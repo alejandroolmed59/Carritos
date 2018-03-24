@@ -21,7 +21,7 @@ public class JavaApplication1 {
         Carro carro2 = new Carro("Toyota", 2011);
         Carro carro3 = new Carro("Ferrari", 2007);
 
-        carro1.encender("Toyota", 2);
+        carro1.encender("CambioRamita1", 2);
         carro2.encender("Toy", 4);
         carro3.encender();
 
