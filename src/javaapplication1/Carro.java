@@ -25,6 +25,17 @@ public class Carro {
         motorEncendido = true;
         System.out.println(marca + " " + anio + " Se encendio");
     }
+/**
+ * Encender el motorcillo
+ * @param Llave Prueba
+ * @param vueltitas prdasfsa
+ * @return Prueba
+ */
+    public int encender(String Llave, int vueltitas) {
+        motorEncendido = true;
+        System.out.println(marca + " " + anio + " Se encendio");
+        return 1;
+    }
 
     public void apagar() {
         motorEncendido = false;
