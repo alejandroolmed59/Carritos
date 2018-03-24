@@ -11,7 +11,8 @@ package javaapplication1;
  * @author nesto
  */
 public class JavaApplication1 {
-
+    
+    
     /**
      * @param args the command line arguments
      */
@@ -20,8 +21,8 @@ public class JavaApplication1 {
         Carro carro2 = new Carro("Toyota", 2011);
         Carro carro3 = new Carro("Ferrari", 2007);
 
-        carro1.encender();
-        carro2.encender();
+        carro1.encender("Toyota", 2);
+        carro2.encender("Toy", 4);
         carro3.encender();
 
         carro1.apagar();

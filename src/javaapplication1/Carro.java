@@ -20,7 +20,9 @@ public class Carro {
         this.marca = marca;
         this.anio = anio;
     }
-
+/**
+ * Prueba del polimorfismo
+ */
     public void encender() {
         motorEncendido = true;
         System.out.println(marca + " " + anio + " Se encendio");
@@ -35,7 +37,7 @@ public class Carro {
     public int encender(String Llave, int vueltitas) {
         motorEncendido = true;
         System.out.println(marca + " " + anio + " Se encendio");
-        return 1;
+        return 5643;
     }
 
     public void apagar() {
